@@ -1,6 +1,6 @@
 {
   "name": "modexp64",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Modular exponentiation in NodeJS using 64 bits unsigned numbers. Implemented in C++.",
   "main": "index.js",
   "scripts": {
