@@ -1,0 +1,31 @@
+{
+  "name": "modexp64",
+  "version": "0.0.0",
+  "description": "Modular exponentiation in NodeJS using 64 bits unsigned numbers. Implemented in C++.",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp test",
+    "install": "node-gyp configure build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ernestoalejo/modexp64.git"
+  },
+  "keywords": [
+    "modexp",
+    "modular",
+    "exponentiation",
+    "64bits"
+  ],
+  "author": "Ernesto Alejo",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/ernestoalejo/modexp64/issues"
+  },
+  "homepage": "https://github.com/ernestoalejo/modexp64",
+  "devDependencies": {
+    "gulp-util": "~2.2.16",
+    "gulp": "~3.7.0",
+    "gulp-nodeunit": "0.0.5"
+  }
+}
